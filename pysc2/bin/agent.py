@@ -48,7 +48,8 @@ flags.DEFINE_enum("action_space", None, sc2_env.ActionSpace._member_names_,  # p
                   "and rgb observations.")
 flags.DEFINE_bool("use_feature_units", False,
                   "Whether to include feature units.")
-flags.DEFINE_bool("use_raw_units", False,
+# newly added (BROWN MOD)
+flags.DEFINE_bool("use_raw_units", True,
                   "Whether to include raw units.")
 flags.DEFINE_bool("disable_fog", False, "Whether to disable Fog of War.")
 
