@@ -40,7 +40,9 @@ mini_games = [
     # Newly added ones
     "MultiMarineOneBeaconV1",
     "OneMarineOneBeacon",
-    "StalkersVsRoaches"
+    "StalkersVsRoaches",
+    "FleeRoachesv4_eval",
+    "FleeRoachesv4_training"
 ]
 
 
